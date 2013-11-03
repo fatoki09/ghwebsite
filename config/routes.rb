@@ -1,5 +1,6 @@
 Ghwebsite::Application.routes.draw do
 
+  devise_for :users
   resources :contact_messages
 
   get "/home" => "website_pages#home"
