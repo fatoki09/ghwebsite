@@ -2,20 +2,34 @@
 
 
       <!-- TukTuk Footer -->
-      <footer class="bck theme padding">
+      <footer class=" bck light padding">
         <div class="row margin-top margin-bottom">
           <div class="column_6">
             <p class="text bold big"> Interested in making an appointment or have any additional questions?</p>
               <br>
-               Call our <strong>Ottawa</strong> office at <a href="tel:8154340228"> <span class="text normal">(815) 434-0228 </span></a><span class="icon phone"></span>
+               <p>Contact our <strong id="ottawa">Ottawa</strong> office at <a href="tel:8154340228"> <span class="text normal">(815) 434-0228 </span></a><span class="icon phone"></span></p>
             </div>
           <div class="column_6">
             <div class="text align center margin-top">
-              <br>
-              <p class="">Check out <a href="https://nofatmd.herokuapp.com" target="_blank" class="text underline">Dr. Fatoki's blog</a> to learn more about our philosophy of care.</a></p>
-
+              <p class="">Check out <a href="https://nofatmd.herokuapp.com" target="_blank" class="text underline" id="blog">Dr. Fatoki's blog</a> to learn more about our philosophy of care.</a></p>
             </div>
           </div>
+                <br>
+            <div class="column_3">
+              <form action="http://maps.google.com/maps" method="get" target="_blank"><br />
+                <input type="hidden" name="daddr" value="110 E Main Street, Suite 226
+Ottawa, IL 61350" />
+                <button type="submit" class="button large anchor" id="directions"/>Get Directions to Ottawa</button>
+              </form>
+            </div>
+            <div class="column_3">
+              <form action="http://maps.google.com/maps" method="get" target="_blank"><br />
+                <input type="hidden" name="daddr" value="1473 Ring Road, Calumet City, IL 60409" />
+                <button type="submit" class="button large anchor" id="directions"/>Get Directions to Calumet City</button>
+              </form>
+            </div>
+
+            
         </div>
       </footer>
 
