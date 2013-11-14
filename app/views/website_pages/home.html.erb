@@ -1,13 +1,13 @@
 
 
 
-<section class="padding features">
+<section class="features">
     <div class="row text center book">
         <div class="column_12">
             <!-- <h1 class="padding" id="title">Welcome to Great Heights Family Medicine</h1> -->
             <h2 id="welcome-message" class="hide-phone">Welcome to Great Heights Family Medicine</h2>
             <p id="welcome-message" class="show-phone" style="font-size:40px;">Welcome to Great Heights Family Medicine</p>
-            <h2 class="padding text bold" id="intro"><i>The Doctor's Office You've Been Looking For.</i></h2>
+            
                 
                     
         </div>
@@ -18,34 +18,36 @@
         $.backstretch("<%= asset_path 'stethoscope.jpg'%>");
 </script>  
 
-    <section class="padding bck theme">
+    <section style="padding-bottom:3em;"class="padding-bottom" id="homepage-features">
         <div class="row text center normal margin-top">
-        	 <div class="column_4">
-            	<%= link_to  weight_loss_path do %>
-	                <h1 class="icon food color default"></h1>
-	                <h4 class="text color default">Weight Loss</h4>
-                <% end %>
-                <br>
-		                <p class="text normal">Our <strong>physician-developed</strong>, lifestyle modification program focuses on <strong>balancing the foods you already eat</strong>, not diets or meal replacements.</p>
-            </div>
+            <h2 class="padding text normal bold">The Doctor's Office You've Been Looking For.</h2>
+            	 <div class="column_4">
+                	<%= link_to  weight_loss_path do %>
+    	                <h1 class="icon food color theme"></h1>
+    	                <h4 class="text color theme">Weight Loss</h4>
+                    <% end %>
+                    <br>
+    		                <p class="text normal">Our <strong>physician-developed</strong>, lifestyle modification program focuses on <strong>balancing the foods you already eat</strong>, not diets or meal replacements.</p>
+                </div>
 
-            <div class="column_4">
-                <%= link_to  drug_treatment_path do %>
-                	<h1 class="icon group color default"></h1>
-                	<h4 class="text color default">Drug Treatment</h4>
-            	<% end %>
-            	<br>
-		                <p class="text normal">We provide care for opioid dependence in a <strong>discreet</strong>, office setting, with counseling and special programs to encourage/celebrate the <strong>recovery</strong> of our patients.</p>
-            </div>
+                <div class="column_4">
+                    <%= link_to  drug_treatment_path do %>
+                    	<h1 class="icon group color theme"></h1>
+                    	<h4 class="text color theme">Drug Treatment</h4>
+                	<% end %>
+                	<br>
+    		                <p class="text normal">We provide care for opioid dependence in a <strong>discreet</strong>, office setting, with counseling and special programs to encourage/celebrate the <strong>recovery</strong> of our patients.</p>
+                </div>
 
-            <div class="column_4">
-            	<%= link_to  immigration_physicals_path do %>
-	                <h1 class="icon flag color default"></h1>
-	                <h4 class="text color default">Immigration Physicials</h4>
-                <% end %>
-                <br>
-		                <p class="text normal">We specialize in <strong>USCIS Immigration Exams</strong>, supplying all of the offical medical documents you need to successfully complete the process.</p>
-            </div>
+                <div class="column_4">
+                	<%= link_to  immigration_physicals_path do %>
+    	                <h1 class="icon flag color theme"></h1>
+    	                <h4 class="text color theme">Immigration Physicials</h4>
+                    <% end %>
+                    <br>
+    		                <p class="text normal">We specialize in <strong>USCIS Immigration Exams</strong>, supplying all of the offical medical documents you need to successfully complete the process.</p>
+                </div>
+
         </div>
     </section>
 
