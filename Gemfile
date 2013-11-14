@@ -42,6 +42,8 @@ end
 
 gem 'devise'
 
+gem 'meta-tags', :require => 'meta_tags'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

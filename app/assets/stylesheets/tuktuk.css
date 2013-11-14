@@ -1,3 +1,7 @@
+#features {
+	color: #2c3e50;
+}
+
 #homepage-description {
 	color: #78798A;
 }
@@ -6,9 +10,13 @@
 	background-color: white;
 }
 
-#directions {
+#ottawa-directions, #calcity-directions {
 	font-size:1.250em; 
 	line-height:1.25em;
+}
+
+#calcity-directions, #drugtreament-telephone-button {
+	background-color: #2c3e50;
 }
 
 #ottawa, #blog {
@@ -21,7 +29,7 @@
     opacity: 0.7;
 }
 
-#inbox-button, #telephone-button{
+#inbox-button, #telephone-button, #drugtreament-telephone-button {
 	line-height: 1em;
 }
 
