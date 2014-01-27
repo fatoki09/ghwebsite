@@ -14,6 +14,9 @@ class WebsitePagesController < ApplicationController
   def immigration_physicals
   end
 
+  def medical_marijuana
+  end
+
   def contact
     @contact_message = ContactMessage.new
   end

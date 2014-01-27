@@ -8,6 +8,7 @@ Ghwebsite::Application.routes.draw do
   get "/drug_treatment" => "website_pages#drug_treatment"
   get "/weight_loss" => "website_pages#weight_loss"
   get "/immigration_physicals" => "website_pages#immigration_physicals"
+  get "/medical_marijuana" => "website_pages#medical_marijuana"
   get "/contact" => "website_pages#contact"
 
 
